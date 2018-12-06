@@ -1,0 +1,31 @@
+.sort-picker-div{
+	margin: 10px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.sort-picker-select-div{
+	flex: 3;
+}
+
+.sort-asc-div,
+.sort-desc-div{
+	flex: 1;
+}
+
+.sort-asc-div{
+	text-align: right;
+	padding-right: 2px;
+}
+.sort-desc-div{
+	text-align: left;
+	padding-left: 2px;
+}
+
+
+.sort-type-selected{
+	color: black;
+}
+.sort-type-notselected{
+	color: lightgray;
+}

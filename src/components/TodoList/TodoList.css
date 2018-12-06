@@ -1,0 +1,70 @@
+.todo-items-pending,
+.todo-items-completed{
+	border: solid #f0f0f0 1px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.todo-items-completed{
+	background: lightgray;
+}
+
+.todo-item{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.todo-item-complete-div,
+.todo-item-delete-div{
+	flex: 1;
+}
+
+.todo-item-title-div{
+	flex: 10;	
+}
+
+.todo-item-complete-check,
+.todo-item-delete-button,
+.todo-additem-button{
+	color: darkgray;
+	cursor: pointer;
+}
+.todo-item-complete-check:hover{
+	color: green;
+}
+.todo-item-delete-button:hover{
+	color: red;
+}
+.todo-additem-button:hover{
+	color: black;
+}
+
+.todo-additem-button{
+	margin-top: 3px;
+}
+
+.todo-items-completed .todo-item-title{
+	color: darkgray;
+	text-decoration: line-through;
+}
+
+
+.todo-additem-div{
+	display: flex;
+	margin: 10px 0;
+}
+.todo-additem-input{
+	flex: 10;
+	text-align: center;
+	font-size: 1rem;
+}
+.todo-additem-button{
+	flex: 1;
+	cursor: pointer;
+}
+
+.todo-item-title-edit{
+	width: 100%;
+	text-align: center;
+	font-size: 1rem;
+}
